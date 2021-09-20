@@ -6,8 +6,8 @@ import time as t
 import cv2
 
 # 設定
-account = "f130481519" # 請輸入自己的帳密
-password = "h82836103"
+account = "" # 請輸入自己的帳密
+password = ""
 pt.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
